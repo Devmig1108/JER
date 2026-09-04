@@ -141,8 +141,11 @@ function e(string $value): string
             </a>
             <nav class="desktop-nav" aria-label="Primary navigation"><a href="../">Home</a><a href="./" aria-current="page">Roof replacement</a><a href="../roof-repair/">Roof repair</a><a href="#replacement-faq">Questions</a></nav>
             <a class="header-cta" href="#replacement-consultation">Plan a consultation <span aria-hidden="true">↗</span></a>
+            <details class="mobile-menu">
+                <summary><span>Menu</span><i aria-hidden="true"><b></b><b></b></i></summary>
+                <nav class="mobile-menu-panel" aria-label="Mobile navigation"><a href="../">Home</a><a href="./" aria-current="page">Roof replacement</a><a href="../roof-repair/">Roof repair</a><a href="#replacement-faq">Questions</a><a class="mobile-menu-cta" href="#replacement-consultation">Plan a consultation <span aria-hidden="true">↗</span></a></nav>
+            </details>
         </header>
-        <nav class="mobile-nav shell" aria-label="Mobile navigation"><a href="../">Home</a><a href="./" aria-current="page">Replacement</a><a href="../roof-repair/">Repair</a></nav>
 
         <div class="inner-hero-content shell">
             <div class="inner-hero-copy">

@@ -139,8 +139,11 @@ function e(string $value): string
             <a class="brand" href="../" aria-label="JER General Contractor home"><span class="brand-lockup"><img src="../assets/jer-mark.webp" alt=""><span><strong>JER</strong><small>General Contractor · Roofing</small></span></span></a>
             <nav class="desktop-nav" aria-label="Primary navigation"><a href="../">Home</a><a href="../roof-replacement/">Roof replacement</a><a href="./" aria-current="page">Roof repair</a><a href="#repair-faq">Questions</a></nav>
             <a class="header-cta" href="#repair-request">Request an assessment <span aria-hidden="true">↗</span></a>
+            <details class="mobile-menu">
+                <summary><span>Menu</span><i aria-hidden="true"><b></b><b></b></i></summary>
+                <nav class="mobile-menu-panel" aria-label="Mobile navigation"><a href="../">Home</a><a href="../roof-replacement/">Roof replacement</a><a href="./" aria-current="page">Roof repair</a><a href="#repair-faq">Questions</a><a class="mobile-menu-cta" href="#repair-request">Request an assessment <span aria-hidden="true">↗</span></a></nav>
+            </details>
         </header>
-        <nav class="mobile-nav shell" aria-label="Mobile navigation"><a href="../">Home</a><a href="../roof-replacement/">Replacement</a><a href="./" aria-current="page">Repair</a></nav>
 
         <div class="inner-hero-content shell">
             <div class="inner-hero-copy">
