@@ -5,6 +5,7 @@
   --paper: #fbfaf6;
   --copper: #b98455;
   --copper-light: #d3a77f;
+  --granite: #141414;
   --line: rgba(242, 239, 232, 0.23);
   --serif: Georgia, "Times New Roman", serif;
   --sans: Arial, Helvetica, sans-serif;
@@ -992,7 +993,7 @@ h1 em {
 }
 
 footer {
-  background: #0e1f42;
+  background: var(--granite);
   color: rgba(255, 255, 255, .6);
   padding: 85px 0 30px;
 }
