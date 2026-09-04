@@ -100,7 +100,7 @@ function e(string $value): string
     <meta property="og:site_name" content="JER General Contractor">
     <meta property="og:title" content="Roofing Contractor in El Paso, TX | JER General Contractor">
     <meta property="og:description" content="Roof replacement, roof repair, and storm restoration for homes and commercial properties in El Paso, Texas.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&amp;fit=crop&amp;w=1600&amp;q=90">
+    <meta property="og:image" content="https://jer-elite.com/assets/projects/el-paso-gray-shingle-roof.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Roofing Contractor in El Paso, TX | JER General Contractor">
     <meta name="twitter:description" content="Residential and commercial roof replacement, repair, and restoration in El Paso, Texas.">
@@ -142,7 +142,7 @@ function e(string $value): string
     <section class="opening shell" id="standard"><p class="section-kicker">The JER standard</p><h2>A roof should do more than cover a building.</h2><p class="opening-copy">It should perform beautifully, age gracefully, and make the structure beneath it feel complete. That belief shapes every inspection, every recommendation, and every detail we install.</p></section>
 
     <section class="standard-feature shell" aria-label="Our approach">
-        <div class="standard-image" role="img" aria-label="Craftsperson installing premium roofing materials"></div>
+        <div class="standard-image" role="img" aria-label="Shingle roof, chimney flashing, and roof ventilation details on an El Paso home"></div>
         <article class="standard-card"><p class="section-kicker light">A higher measure</p><h2>Craftsmanship you can see. Protection you can trust.</h2><p>We design each roofing system around the property, the climate, and the way the structure needs to perform. Then we execute the details that determine how well it endures.</p><ul><li><span>01</span> System-first recommendations</li><li><span>02</span> Disciplined installation standards</li><li><span>03</span> Clean, considered job sites</li></ul><a class="text-link dark-link" href="#process">See how we work <span aria-hidden="true">↗</span></a></article>
     </section>
 
@@ -172,9 +172,9 @@ function e(string $value): string
     <section class="work" id="work">
         <div class="shell work-heading"><div><p class="section-kicker light">Selected work</p><h2>Built to protect.<br><em>Designed to belong.</em></h2></div><p>Every property has a visual language. The best roofing work strengthens it quietly.</p></div>
         <div class="shell project-grid">
-            <article class="project project-large"><div class="project-image project-one" role="img" aria-label="Contemporary luxury residence with a dark architectural roof"></div><div class="project-caption"><div><span>Residential</span><h3>Architectural shingle system</h3></div><p>Performance without compromising the home's proportions.</p></div></article>
-            <article class="project"><div class="project-image project-two" role="img" aria-label="Modern residence with standing seam metal roofing"></div><div class="project-caption"><div><span>Residential</span><h3>Standing seam metal</h3></div></div></article>
-            <article class="project"><div class="project-image project-three" role="img" aria-label="Commercial property with a low-slope roofing system"></div><div class="project-caption"><div><span>Commercial</span><h3>High-performance flat roof</h3></div></div></article>
+            <article class="project project-large"><div class="project-image project-one" role="img" aria-label="Gray architectural shingle roof on an El Paso home"></div><div class="project-caption"><div><span>El Paso residential</span><h3>Gray architectural shingle roof</h3></div><p>A clean, dimensional finish shaped around the home's rooflines and penetrations.</p></div></article>
+            <article class="project"><div class="project-image project-two" role="img" aria-label="Brown architectural shingle roof with the Franklin Mountains in view"></div><div class="project-caption"><div><span>El Paso residential</span><h3>Desert-tone shingle roof</h3></div></div></article>
+            <article class="project"><div class="project-image project-three" role="img" aria-label="Brown residential shingle roof in an El Paso neighborhood"></div><div class="project-caption"><div><span>El Paso residential</span><h3>Residential roof finish</h3></div></div></article>
         </div>
     </section>
 

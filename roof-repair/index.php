@@ -116,13 +116,12 @@ function e(string $value): string
     <link rel="canonical" href="https://jer-elite.com/roof-repair/">
     <link rel="icon" href="../assets/jer-mark.webp">
     <link rel="apple-touch-icon" href="../assets/jer-mark.webp">
-    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jer-elite.com/roof-repair/">
     <meta property="og:site_name" content="JER General Contractor">
     <meta property="og:title" content="Roof Repair in El Paso, TX | JER General Contractor">
     <meta property="og:description" content="A focused El Paso roof repair process—from locating the concern and defining the scope through repair and review.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&amp;fit=crop&amp;w=1600&amp;q=90">
+    <meta property="og:image" content="https://jer-elite.com/assets/projects/el-paso-brown-shingle-roof.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Roof Repair in El Paso, TX | JER General Contractor">
     <meta name="twitter:description" content="Roof leak investigation and considered roof repair for El Paso homes and commercial properties.">
@@ -132,7 +131,7 @@ function e(string $value): string
 <body class="service-page repair-page">
 <main>
     <section class="inner-hero" id="top" aria-labelledby="repair-title">
-        <img class="inner-hero-image" src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&amp;fit=crop&amp;w=2200&amp;q=90" alt="Roofing professional assessing a roof for repair" width="2200" height="1467" fetchpriority="high">
+        <img class="inner-hero-image" src="../assets/projects/el-paso-brown-shingle-roof.webp" alt="Brown architectural shingle roof with the Franklin Mountains in El Paso" width="1600" height="1200" fetchpriority="high">
         <div class="inner-hero-vignette" aria-hidden="true"></div>
         <img class="hero-monogram inner-monogram" src="../assets/jer-mark.webp" alt="" aria-hidden="true">
 
@@ -167,7 +166,7 @@ function e(string $value): string
     </section>
 
     <section class="replacement-scope repair-scope" aria-labelledby="repair-assessment-title">
-        <div class="shell scope-grid"><div class="scope-image repair-scope-image" role="img" aria-label="Roofing professional inspecting detailed roof components"></div><div class="scope-content"><p class="section-kicker light">A focused assessment</p><h2 id="repair-assessment-title">Every repair begins with a chain of evidence.</h2><p>Visible damage matters, but the connected roof details often determine the appropriate repair scope.</p><dl><div><dt>Interior evidence</dt><dd>Staining, moisture location, timing, and the conditions present when the issue appears.</dd></div><div><dt>Exterior condition</dt><dd>Roofing material, flashing, penetrations, edges, transitions, drainage, and nearby wear.</dd></div><div><dt>Repair history</dt><dd>Prior patches, previous leaks, changed materials, and recurring concerns in the same area.</dd></div><div><dt>Surrounding system</dt><dd>Whether adjacent roofing remains serviceable enough for a focused repair to make sense.</dd></div></dl></div></div>
+        <div class="shell scope-grid"><div class="scope-image repair-scope-image" role="img" aria-label="Shingle roof with chimney flashing and ventilation details on an El Paso home"></div><div class="scope-content"><p class="section-kicker light">A focused assessment</p><h2 id="repair-assessment-title">Every repair begins with a chain of evidence.</h2><p>Visible damage matters, but the connected roof details often determine the appropriate repair scope.</p><dl><div><dt>Interior evidence</dt><dd>Staining, moisture location, timing, and the conditions present when the issue appears.</dd></div><div><dt>Exterior condition</dt><dd>Roofing material, flashing, penetrations, edges, transitions, drainage, and nearby wear.</dd></div><div><dt>Repair history</dt><dd>Prior patches, previous leaks, changed materials, and recurring concerns in the same area.</dd></div><div><dt>Surrounding system</dt><dd>Whether adjacent roofing remains serviceable enough for a focused repair to make sense.</dd></div></dl></div></div>
     </section>
 
     <section class="system-options repair-options shell" aria-labelledby="repair-types-title">

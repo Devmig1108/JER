@@ -60,7 +60,7 @@ select {
 .hero-image {
   position: absolute;
   inset: 0;
-  background-image: url("https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&fit=crop&w=2200&q=90");
+  background-image: url("assets/projects/el-paso-gray-shingle-roof.webp");
   background-size: cover;
   background-position: center 42%;
   transform: scale(1.025);
@@ -407,7 +407,7 @@ h1 em {
 }
 
 .standard-image {
-  background: url("https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=88") center/cover;
+  background: url("assets/projects/el-paso-roof-chimney-flashing.webp") center/cover;
 }
 
 .standard-card {
@@ -754,15 +754,15 @@ h1 em {
 }
 
 .project-one {
-  background-image: linear-gradient(0deg, rgba(8, 19, 21, .3), transparent 45%), url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=88");
+  background-image: linear-gradient(0deg, rgba(8, 19, 21, .3), transparent 45%), url("assets/projects/el-paso-roof-replacement-shingles.webp");
 }
 
 .project-two {
-  background-image: linear-gradient(0deg, rgba(8, 19, 21, .28), transparent 45%), url("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=88");
+  background-image: linear-gradient(0deg, rgba(8, 19, 21, .28), transparent 45%), url("assets/projects/el-paso-brown-shingle-roof.webp");
 }
 
 .project-three {
-  background-image: linear-gradient(0deg, rgba(8, 19, 21, .35), transparent 45%), url("https://images.unsplash.com/photo-1605276374104-aa237f7c4ab9?auto=format&fit=crop&w=1200&q=88");
+  background-image: linear-gradient(0deg, rgba(8, 19, 21, .35), transparent 45%), url("assets/projects/el-paso-residential-roof.webp");
 }
 
 .project-caption {
@@ -1612,7 +1612,7 @@ footer {
 }
 
 .scope-image {
-  background: linear-gradient(0deg, rgba(5, 15, 18, .2), transparent 45%), url("https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=88") center/cover;
+  background: linear-gradient(0deg, rgba(5, 15, 18, .2), transparent 45%), url("assets/projects/el-paso-gray-shingle-roof.webp") center/cover;
 }
 
 .scope-content {
@@ -1849,7 +1849,7 @@ footer {
 }
 
 .repair-scope-image {
-  background-image: linear-gradient(0deg, rgba(5, 15, 18, .24), transparent 45%), url("https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&fit=crop&w=1600&q=88");
+  background-image: linear-gradient(0deg, rgba(5, 15, 18, .24), transparent 45%), url("assets/projects/el-paso-roof-chimney-flashing.webp");
 }
 
 .inline-service-link {
@@ -2074,5 +2074,168 @@ footer {
 
   .decision-panel .button {
     width: 100%;
+  }
+}
+
+/* Legibility pass layered over the approved navy/granite baseline. */
+body {
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.desktop-nav a,
+.footer-top nav a {
+  font-size: 14px;
+}
+
+.header-cta,
+.eyebrow,
+.section-kicker {
+  font-size: 13px;
+}
+
+.header-cta::before {
+  font-size: 13px;
+}
+
+.button,
+.mobile-cta {
+  font-size: 14px;
+}
+
+.brand-lockup small {
+  font-size: 10px;
+  line-height: 1.45;
+}
+
+.hero-lede {
+  max-width: 650px;
+  color: rgba(255, 255, 255, .84);
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+.text-link,
+.consult-copy>a {
+  font-size: 15px;
+}
+
+.hero-note small,
+.replacement-brief li {
+  color: rgba(255, 255, 255, .72);
+  font-size: 14px;
+}
+
+.hero-footer,
+.breadcrumbs,
+.project-caption span,
+.footer-bottom,
+.mobile-nav a,
+.service-row small,
+.path-card small,
+.path-card i,
+.system-card a,
+.replacement-steps small {
+  font-size: 12px;
+}
+
+.trust-grid p {
+  font-size: 18px;
+}
+
+.opening-copy,
+.standard-card>p:not(.section-kicker),
+.standard-card li,
+.services-heading>p,
+.work-heading>p,
+.process-intro>p:last-child,
+.consult-copy>p:not(.section-kicker),
+.replacement-intro-copy,
+.scope-content>p:not(.section-kicker),
+.systems-heading>p,
+.decision-panel>div:last-child p {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.standard-card>p:not(.section-kicker),
+.services-heading>p,
+.work-heading>p,
+.consult-copy>p:not(.section-kicker),
+.scope-content>p:not(.section-kicker),
+.process-heading>p:last-child,
+.replacement-steps p {
+  color: rgba(255, 255, 255, .74);
+}
+
+.service-row>p,
+.path-card p,
+.process-steps p,
+.project-caption p,
+.signal-card p,
+.system-card p,
+.process-heading>p:last-child,
+.replacement-steps p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.service-row>p,
+.project-caption p {
+  color: rgba(255, 255, 255, .7);
+}
+
+.faq-list summary {
+  font-size: 21px;
+}
+
+.faq-list details p {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.lead-form label>span {
+  font-size: 14px;
+}
+
+.lead-form label small,
+.form-action p {
+  font-size: 13px;
+}
+
+.form-status {
+  font-size: 15px;
+}
+
+.lead-form input,
+.lead-form select,
+.lead-form textarea {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.guide-note,
+.scope-content dd {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.scope-content dd {
+  color: rgba(255, 255, 255, .68);
+}
+
+@media (max-width: 600px) {
+  .hero-lede,
+  .inner-hero .hero-lede {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .brand-lockup small {
+    font-size: 9px;
+  }
+
+  .faq-list summary {
+    font-size: 19px;
   }
 }

@@ -7,8 +7,9 @@ This is the framework-free version of the premium JER roofing website.
 - `index.php` — premium roofing homepage, SEO structured data, FAQ content, and PHP contact-form handling.
 - `roof-replacement/index.php` — focused roof replacement service page with its own metadata, canonical URL, structured data, educational content, FAQs, and qualified consultation form.
 - `roof-repair/index.php` — El Paso roof repair service page with repair-intent content, structured data, FAQs, and a concern-specific assessment form.
-- `styles.css` — complete visual system and responsive layouts.
+- `styles.css` — the approved navy/granite visual baseline plus responsive legibility overrides.
 - `assets/` — optimized JER logo files.
+- `assets/projects/` — optimized WebP copies of the supplied El Paso roofing photographs used throughout all three pages.
 - `robots.txt` and `sitemap.xml` — search-engine discovery files.
 
 ## Install
@@ -24,7 +25,7 @@ No Node.js, npm, Composer, database, JavaScript, or build step is required.
 - Confirm the recipient email near the top of `index.php`.
 - Confirm the canonical domain in `index.php`, `robots.txt`, and `sitemap.xml`.
 - Add the verified phone number, address, service areas, licensing details, and real customer reviews.
-- Replace stock photography with finished JER project photography when available.
+The current build no longer uses stock roofing photographs. The supplied project images are optimized for web delivery and are referenced with descriptive filenames and accessible image descriptions.
 
 ## Roof replacement page URL
 

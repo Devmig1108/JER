@@ -116,13 +116,12 @@ function e(string $value): string
     <link rel="canonical" href="https://jer-elite.com/roof-replacement/">
     <link rel="icon" href="../assets/jer-mark.webp">
     <link rel="apple-touch-icon" href="../assets/jer-mark.webp">
-    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jer-elite.com/roof-replacement/">
     <meta property="og:site_name" content="JER General Contractor">
     <meta property="og:title" content="Roof Replacement in El Paso, TX | JER General Contractor">
     <meta property="og:description" content="A considered El Paso roof replacement process—from assessment and system selection through installation and final review.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&amp;fit=crop&amp;w=1600&amp;q=90">
+    <meta property="og:image" content="https://jer-elite.com/assets/projects/el-paso-roof-replacement-shingles.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Roof Replacement in El Paso, TX | JER General Contractor">
     <meta name="twitter:description" content="Plan an El Paso roof replacement around the property, the complete roof system, and the priorities that matter after installation.">
@@ -132,7 +131,7 @@ function e(string $value): string
 <body class="service-page replacement-page">
 <main>
     <section class="inner-hero" id="top" aria-labelledby="replacement-title">
-        <img class="inner-hero-image" src="https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&amp;fit=crop&amp;w=2200&amp;q=90" alt="Roofing professional working on a residential roof replacement" width="2200" height="1467" fetchpriority="high">
+        <img class="inner-hero-image" src="../assets/projects/el-paso-roof-replacement-shingles.webp" alt="Gray architectural shingle roof in an El Paso neighborhood" width="1600" height="1200" fetchpriority="high">
         <div class="inner-hero-vignette" aria-hidden="true"></div>
         <img class="hero-monogram inner-monogram" src="../assets/jer-mark.webp" alt="" aria-hidden="true">
 
@@ -188,7 +187,7 @@ function e(string $value): string
 
     <section class="replacement-scope" aria-labelledby="scope-title">
         <div class="shell scope-grid">
-            <div class="scope-image" role="img" aria-label="Detailed roofing installation work"></div>
+            <div class="scope-image" role="img" aria-label="Gray shingle roof with visible ridge, field, and ventilation details"></div>
             <div class="scope-content">
                 <p class="section-kicker light">The complete assembly</p>
                 <h2 id="scope-title">The visible roof is only one part of the system.</h2>
