@@ -61,11 +61,12 @@ $faqs = [
 
 $schema = [
     '@context' => 'https://schema.org',
-    '@type' => 'RoofingContractor',
+    '@type' => 'Organization',
     'name' => 'JER General Contractor',
     'url' => 'https://jer-elite.com',
     'email' => $recipient,
-    'description' => 'Premium residential and commercial roof replacement, repair, and storm restoration.',
+    'description' => 'Residential and commercial roof replacement, roof repair, and storm restoration services in El Paso, Texas.',
+    'areaServed' => ['@type' => 'City', 'name' => 'El Paso', 'containedInPlace' => ['@type' => 'State', 'name' => 'Texas']],
     'knowsAbout' => ['Residential roofing', 'Commercial roofing', 'Roof replacement', 'Roof repair', 'Storm restoration'],
     'hasOfferCatalog' => [
         '@type' => 'OfferCatalog',
@@ -88,9 +89,8 @@ function e(string $value): string
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0a171a">
-    <title>JER General Contractor | Premium Roof Replacement &amp; Repair</title>
-    <meta name="description" content="Premium residential and commercial roof replacement, repair, and storm restoration from a licensed, bonded, and insured roofing team.">
-    <meta name="keywords" content="premium roofing contractor, roof replacement, roof repair, commercial roofing, storm restoration">
+    <title>Roofing Contractor in El Paso, TX | JER General Contractor</title>
+    <meta name="description" content="JER General Contractor provides roof replacement, roof repair, and storm restoration services for homes and commercial properties in El Paso, Texas.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://jer-elite.com/">
     <link rel="icon" href="assets/jer-mark.webp">
@@ -98,12 +98,12 @@ function e(string $value): string
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jer-elite.com/">
     <meta property="og:site_name" content="JER General Contractor">
-    <meta property="og:title" content="JER General Contractor | Protection, Elevated">
-    <meta property="og:description" content="High-performance roofing systems installed with exacting craft for homes and properties built to last.">
+    <meta property="og:title" content="Roofing Contractor in El Paso, TX | JER General Contractor">
+    <meta property="og:description" content="Roof replacement, roof repair, and storm restoration for homes and commercial properties in El Paso, Texas.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&amp;fit=crop&amp;w=1600&amp;q=90">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="JER General Contractor | Protection, Elevated">
-    <meta name="twitter:description" content="Premium residential and commercial roofing, replacement, repair, and restoration.">
+    <meta name="twitter:title" content="Roofing Contractor in El Paso, TX | JER General Contractor">
+    <meta name="twitter:description" content="Residential and commercial roof replacement, repair, and restoration in El Paso, Texas.">
     <link rel="stylesheet" href="styles.css">
     <script type="application/ld+json"><?= json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
 </head>
@@ -117,15 +117,16 @@ function e(string $value): string
             <a class="brand" href="#top" aria-label="JER General Contractor roofing home">
                 <span class="brand-lockup"><img src="assets/jer-mark.webp" alt=""><span><strong>JER</strong><small>General Contractor · Roofing</small></span></span>
             </a>
-            <nav class="desktop-nav" aria-label="Primary navigation"><a href="#standard">Our standard</a><a href="#services">Expertise</a><a href="#work">Selected work</a></nav>
+            <nav class="desktop-nav" aria-label="Primary navigation"><a href="./" aria-current="page">Home</a><a href="roof-replacement/">Roof replacement</a><a href="roof-repair/">Roof repair</a><a href="#work">Selected work</a></nav>
             <a class="header-cta" href="#consultation">Plan a consultation <span aria-hidden="true">↗</span></a>
         </header>
+        <nav class="mobile-nav shell" aria-label="Mobile navigation"><a href="./" aria-current="page">Home</a><a href="roof-replacement/">Replacement</a><a href="roof-repair/">Repair</a></nav>
 
         <div class="hero-content shell">
             <div class="hero-copy">
-                <p class="eyebrow"><span></span> Residential · Commercial · Restoration</p>
+                <p class="eyebrow"><span></span> El Paso, Texas · Residential · Commercial</p>
                 <h1 id="hero-title">The roof over<br><em>everything that matters.</em></h1>
-                <p class="hero-lede">High-performance roofing systems, installed with exacting craft for homes and properties built to last.</p>
+                <p class="hero-lede">Roof replacement, repair, and restoration planned with exacting care for homes and commercial properties across El Paso.</p>
                 <div class="hero-actions">
                     <a class="button button-primary" href="#consultation">Request a roof assessment <span aria-hidden="true">↗</span></a>
                     <a class="text-link" href="#work">Explore our work <span>↓</span></a>
@@ -149,7 +150,7 @@ function e(string $value): string
         <div class="shell services-heading"><div><p class="section-kicker light">Specialized expertise</p><h2>One standard.<br><em>Every roof.</em></h2></div><p>From a single-family residence to a complex commercial envelope, our discipline does not change: understand the system, respect the structure, and install with precision.</p></div>
         <div class="shell service-list">
             <?php foreach ($services as [$number, $title, $tag, $copy]): ?>
-                <article class="service-row"><span class="service-number"><?= e($number) ?></span><div><h3><?= e($title) ?></h3><small><?= e($tag) ?></small></div><p><?= e($copy) ?></p><span aria-hidden="true">↗</span></article>
+                <article class="service-row"><span class="service-number"><?= e($number) ?></span><div><h3><?= e($title) ?></h3><small><?= e($tag) ?></small></div><p><?= e($copy) ?></p><?php if ($number === '01'): ?><a class="service-arrow" href="roof-replacement/" aria-label="Explore JER roof replacement services">↗</a><?php else: ?><span aria-hidden="true">↗</span><?php endif; ?></article>
             <?php endforeach; ?>
         </div>
     </section>
@@ -157,9 +158,9 @@ function e(string $value): string
     <section class="project-paths" aria-labelledby="project-paths-title">
         <div class="shell paths-heading"><p class="section-kicker">Start with what you know</p><h2 id="project-paths-title">Whatever brought you here,<br><em>there is a clear next step.</em></h2></div>
         <div class="shell path-grid">
-            <a class="path-card" href="#consultation"><span>01</span><small>Urgent concern</small><h3>Active leak or interior staining</h3><p>Begin with a focused assessment to find the source and protect the property.</p><i>Request an assessment <span aria-hidden="true">↗</span></i></a>
-            <a class="path-card" href="#consultation"><span>02</span><small>Recent weather</small><h3>Storm, wind, or hail exposure</h3><p>Document the visible condition and understand what requires immediate attention.</p><i>Review the damage <span aria-hidden="true">↗</span></i></a>
-            <a class="path-card" href="#consultation"><span>03</span><small>Planned investment</small><h3>Aging system or considered upgrade</h3><p>Compare responsible options for performance, longevity, and architectural fit.</p><i>Plan the project <span aria-hidden="true">↗</span></i></a>
+            <a class="path-card" href="roof-repair/"><span>01</span><small>Urgent concern</small><h3>Active leak or interior staining</h3><p>Begin with a focused assessment to locate the source and determine the appropriate repair.</p><i>Explore roof repair <span aria-hidden="true">↗</span></i></a>
+            <a class="path-card" href="roof-repair/"><span>02</span><small>Recent weather</small><h3>Storm, wind, or hail exposure</h3><p>Document the visible condition and understand what requires immediate attention.</p><i>Review repair options <span aria-hidden="true">↗</span></i></a>
+            <a class="path-card" href="roof-replacement/"><span>03</span><small>Planned investment</small><h3>Aging system or considered upgrade</h3><p>Compare responsible options for performance, longevity, and architectural fit.</p><i>Plan a replacement <span aria-hidden="true">↗</span></i></a>
         </div>
     </section>
 
@@ -201,7 +202,7 @@ function e(string $value): string
     </section>
 
     <footer>
-        <div class="shell footer-top"><a class="brand footer-brand" href="#top" aria-label="JER General Contractor roofing home"><span class="brand-lockup brand-lockup-full"><img src="assets/jer-logo.webp" alt="JER General Contractor"></span></a><p>Premium residential &amp; commercial roofing.<br>Fully licensed, bonded, and insured.</p><nav aria-label="Footer navigation"><a href="#standard">Our standard</a><a href="#services">Expertise</a><a href="#work">Selected work</a><a href="#consultation">Contact</a></nav></div>
+        <div class="shell footer-top"><a class="brand footer-brand" href="#top" aria-label="JER General Contractor roofing home"><span class="brand-lockup brand-lockup-full"><img src="assets/jer-logo.webp" alt="JER General Contractor"></span></a><p>Residential &amp; commercial roofing<br>in El Paso, Texas.</p><nav aria-label="Footer navigation"><a href="./">Home</a><a href="roof-replacement/">Roof replacement</a><a href="roof-repair/">Roof repair</a><a href="#consultation">Contact</a></nav></div>
         <div class="shell footer-bottom"><p>© <?= date('Y') ?> JER General Contractor</p><p>Protection, elevated.</p><a href="#top">Back to top ↑</a></div>
     </footer>
     <a class="mobile-cta" href="#consultation">Request assessment <span aria-hidden="true">↗</span></a>

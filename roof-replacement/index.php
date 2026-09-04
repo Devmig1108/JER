@@ -77,12 +77,13 @@ $schema = [
     [
         '@context' => 'https://schema.org',
         '@type' => 'Service',
-        'name' => 'Roof Replacement Services',
+        'name' => 'Roof Replacement in El Paso, TX',
         'serviceType' => 'Roof replacement',
         'url' => 'https://jer-elite.com/roof-replacement/',
-        'description' => 'Residential and commercial roof replacement planning, system selection, installation, and project closeout from JER General Contractor.',
+        'description' => 'Residential and commercial roof replacement planning, system selection, installation, and project closeout in El Paso, Texas.',
+        'areaServed' => ['@type' => 'City', 'name' => 'El Paso', 'containedInPlace' => ['@type' => 'State', 'name' => 'Texas']],
         'provider' => [
-            '@type' => 'RoofingContractor',
+            '@type' => 'Organization',
             'name' => 'JER General Contractor',
             'url' => 'https://jer-elite.com/',
             'email' => $recipient,
@@ -109,8 +110,8 @@ function e(string $value): string
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#0a171a">
-    <title>Roof Replacement Services | JER General Contractor</title>
-    <meta name="description" content="Plan a roof replacement with a clear assessment, system comparison, defined scope, careful installation, and disciplined project closeout from JER.">
+    <title>Roof Replacement in El Paso, TX | JER General Contractor</title>
+    <meta name="description" content="Plan a roof replacement in El Paso, TX with a clear assessment, system comparison, defined scope, careful installation, and disciplined closeout.">
     <meta name="robots" content="index,follow,max-image-preview:large">
     <link rel="canonical" href="https://jer-elite.com/roof-replacement/">
     <link rel="icon" href="../assets/jer-mark.webp">
@@ -119,12 +120,12 @@ function e(string $value): string
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jer-elite.com/roof-replacement/">
     <meta property="og:site_name" content="JER General Contractor">
-    <meta property="og:title" content="Roof Replacement Services | JER General Contractor">
-    <meta property="og:description" content="A considered roof replacement process—from assessment and system selection through installation and final review.">
+    <meta property="og:title" content="Roof Replacement in El Paso, TX | JER General Contractor">
+    <meta property="og:description" content="A considered El Paso roof replacement process—from assessment and system selection through installation and final review.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1632759145355-6cb31f78726f?auto=format&amp;fit=crop&amp;w=1600&amp;q=90">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Roof Replacement Services | JER General Contractor">
-    <meta name="twitter:description" content="Plan a roof replacement around the property, the roof system, and the priorities that matter long after installation.">
+    <meta name="twitter:title" content="Roof Replacement in El Paso, TX | JER General Contractor">
+    <meta name="twitter:description" content="Plan an El Paso roof replacement around the property, the complete roof system, and the priorities that matter after installation.">
     <link rel="stylesheet" href="../styles.css">
     <script type="application/ld+json"><?= json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
 </head>
@@ -139,16 +140,17 @@ function e(string $value): string
             <a class="brand" href="../" aria-label="JER General Contractor home">
                 <span class="brand-lockup"><img src="../assets/jer-mark.webp" alt=""><span><strong>JER</strong><small>General Contractor · Roofing</small></span></span>
             </a>
-            <nav class="desktop-nav" aria-label="Primary navigation"><a href="../">Home</a><a href="#replacement-systems">Roof systems</a><a href="#replacement-process">Process</a><a href="#replacement-faq">Questions</a></nav>
+            <nav class="desktop-nav" aria-label="Primary navigation"><a href="../">Home</a><a href="./" aria-current="page">Roof replacement</a><a href="../roof-repair/">Roof repair</a><a href="#replacement-faq">Questions</a></nav>
             <a class="header-cta" href="#replacement-consultation">Plan a consultation <span aria-hidden="true">↗</span></a>
         </header>
+        <nav class="mobile-nav shell" aria-label="Mobile navigation"><a href="../">Home</a><a href="./" aria-current="page">Replacement</a><a href="../roof-repair/">Repair</a></nav>
 
         <div class="inner-hero-content shell">
             <div class="inner-hero-copy">
                 <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../">Home</a><span>/</span><span aria-current="page">Roof replacement</span></nav>
-                <p class="eyebrow"><span></span> Roof replacement services</p>
-                <h1 id="replacement-title">A replacement built around<br><em>the whole property.</em></h1>
-                <p class="hero-lede">A new roof is a major property decision. JER brings the condition, material options, installation details, and project scope into one clear plan.</p>
+                <p class="eyebrow"><span></span> Roof replacement · El Paso, Texas</p>
+                <h1 id="replacement-title">Roof replacement<br><em>in El Paso, TX.</em></h1>
+                <p class="hero-lede">A new roof is a major property decision. JER brings the condition, material options, installation details, and project scope into one clear plan for El Paso properties.</p>
                 <div class="hero-actions">
                     <a class="button button-primary" href="#replacement-consultation">Request a replacement assessment <span aria-hidden="true">↗</span></a>
                     <a class="text-link" href="#replacement-guide">Understand the decision <span>↓</span></a>
@@ -170,10 +172,10 @@ function e(string $value): string
     <section class="replacement-guide shell" id="replacement-guide">
         <div class="replacement-intro">
             <p class="section-kicker">Repair or replace</p>
-            <h2>When replacement becomes the responsible next step.</h2>
+            <h2>When roof replacement becomes the responsible next step in El Paso.</h2>
             <div class="replacement-intro-copy">
                 <p>Not every roofing problem calls for a full replacement. The right decision depends on whether the concern is isolated or part of wider deterioration across the roof assembly.</p>
-                <p>A replacement assessment should look beyond surface appearance. Material condition, flashing, penetrations, drainage, ventilation, underlayment, recurring leaks, previous work, and the property's long-term plan all help define the appropriate path.</p>
+                <p>For an El Paso roof, the assessment should look beyond surface appearance. Material condition, flashing, penetrations, drainage, ventilation, underlayment, recurring leaks, previous work, sun exposure, wind exposure, and the property's long-term plan all help define the appropriate path.</p>
             </div>
         </div>
         <div class="signal-grid">
@@ -251,8 +253,8 @@ function e(string $value): string
     </section>
 
     <footer>
-        <div class="shell footer-top"><a class="brand footer-brand" href="../" aria-label="JER General Contractor home"><span class="brand-lockup brand-lockup-full"><img src="../assets/jer-logo.webp" alt="JER General Contractor"></span></a><p>Premium residential &amp; commercial roofing.<br>Protection, elevated.</p><nav aria-label="Footer navigation"><a href="../">Home</a><a href="#replacement-systems">Roof systems</a><a href="#replacement-process">Replacement process</a><a href="#replacement-consultation">Contact</a></nav></div>
-        <div class="shell footer-bottom"><p>© <?= date('Y') ?> JER General Contractor</p><p>Roof replacement services</p><a href="#top">Back to top ↑</a></div>
+        <div class="shell footer-top"><a class="brand footer-brand" href="../" aria-label="JER General Contractor home"><span class="brand-lockup brand-lockup-full"><img src="../assets/jer-logo.webp" alt="JER General Contractor"></span></a><p>Residential &amp; commercial roofing<br>in El Paso, Texas.</p><nav aria-label="Footer navigation"><a href="../">Home</a><a href="./">Roof replacement</a><a href="../roof-repair/">Roof repair</a><a href="#replacement-consultation">Contact</a></nav></div>
+        <div class="shell footer-bottom"><p>© <?= date('Y') ?> JER General Contractor</p><p>Roof replacement in El Paso, TX</p><a href="#top">Back to top ↑</a></div>
     </footer>
     <a class="mobile-cta" href="#replacement-consultation">Plan a replacement <span aria-hidden="true">↗</span></a>
 </main>
