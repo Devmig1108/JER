@@ -1440,7 +1440,7 @@ footer {
 .inner-hero-vignette {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(5, 15, 18, .96) 0%, rgba(7, 18, 21, .84) 48%, rgba(7, 18, 21, .3) 82%), linear-gradient(0deg, rgba(5, 15, 18, .92), transparent 52%);
+  background: linear-gradient(90deg, rgba(5, 10, 18, 0.93) 0%, rgba(7, 11, 21, 0.72) 45%, rgba(7, 18, 21, .18) 78%), linear-gradient(0deg, rgba(5, 15, 18, .82), transparent 42%);
 }
 
 .inner-monogram {
